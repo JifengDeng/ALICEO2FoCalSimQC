@@ -1,0 +1,18 @@
+make: 进入目录“/home/jifeng/Code/FoCalsimulation/FOCALcode/O2version/O2FoCalGenQC”
+make: 对“all”无需做任何事。
+make: 离开目录“/home/jifeng/Code/FoCalsimulation/FOCALcode/O2version/O2FoCalGenQC”
+
+Processing macro/runGenQC.C("input/o2sim_Kine.root","input/o2sim_HitsFOC.root","output/Results.root","../FOCAL/simulation/geometryFiles/geometry_Sheets.txt")...
+Initializing O2FoCalGenQC...
+Start time (ms): 1003790809477
+[INFO] Using geometry file ../FOCAL/simulation/geometryFiles/geometry_Sheets.txt
+[INFO] Loading FOCAL geometry file 
+O2FoCalGenQC::LoadGeometry: ../FOCAL/simulation/geometryFiles/geometry_Sheets.txt  nLayers=21  nSegments=7  sizeX=94.04  sizeY=101.2  sizeZ=127  z0=764.47
+O2FoCalGenQC::ReadKine: input/o2sim_Kine.root  nEvents=50  nTracks=102754
+O2FoCalGenQC: generating dictionary for std::vector<o2::focal::Hit>
+O2FoCalGenQC::ReadFOCHits: branch=FOCHit class=vector<o2::focal::Hit>
+O2FoCalGenQC::ReadFOCHits: input/o2sim_HitsFOC.root  branch=FOCHit  nEvents=50  nHits=35885  nInsideGeometry=35885
+O2FoCalGenQC::WriteOutput: wrote output/Results.root
+End time (ms): 1003790809733
+Time taken: 256 ms
+O2FoCalGenQC executed successfully
